@@ -173,6 +173,11 @@ color: wheat;
     font-size: 25px;
 }
 
+.third-paragraph{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
 
 
 .about-me-img-container{
@@ -360,6 +365,23 @@ input[type="submit"]:hover{
     font-size: 35px;
     font-family: Oswald, sans-serif;
     font-weight: 600;
+}
+
+.status-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status-message.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-message.error {
+    background: #f8d7da;
+    color: #721c24;
 }
 
 
